@@ -1,6 +1,6 @@
 .sidepanel {
     position: fixed;
-    top: 200px;
+    top: 226px;
     left: 50px;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,13 @@
         width: 2px;
         height: 70px;
         background-color: #000;
+    }
+    &__link {
+        svg path {
+            &:hover {
+                fill: red;
+            }
+        }
     }
     &__text {
         width: 25px;
