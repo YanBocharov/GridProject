@@ -67,12 +67,12 @@
            border-radius: 100%;
            border: 1px solid #000;
            left: -30px;
-           top: 9px; 
+           top: 9px;
+           transition: 0.6s all;
        }
        &:hover {
            &:before {
-               background-color: yellow;
-               transition: 0.6s all;
+               background-color: wheat;
            }
        }
        a {
