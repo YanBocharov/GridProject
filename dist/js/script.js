@@ -10,3 +10,10 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
+const counters = document.querySelectorAll('.skills__block-number'),
+    lines = document.querySelectorAll('.skills__block-line-orange');
+
+counters.forEach( (item,i) => {
+    lines[i].style.width = item.innerHTML;
+});
+
