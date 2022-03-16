@@ -7,7 +7,7 @@
         margin-top: 60px;
         display: grid;
         grid-template-columns: repeat(2, 367px);
-        justify-content: space-between;
+        justify-content: space-around;
         row-gap: 15px;
     }
     &__up {
